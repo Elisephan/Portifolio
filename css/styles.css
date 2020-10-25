@@ -1,8 +1,8 @@
 #about{
-    background-color: #e2e2e2;
+    background-color: lightcyan;
     color: black;
 }
-#contact{
+#hire-me{
 background-color:#e2e2e2;
 color:black;
 
@@ -46,7 +46,7 @@ margin-top: 0;
 padding-top: 0%;
 } 
 li a:hover{
-  color: rgb(192, 157, 157);
+  color: crimson;
   text-decoration:none;}
 
 
@@ -158,3 +158,25 @@ table, th, td {
   
 
 }
+/*about cont'*/
+.elise{
+    width: 365px;
+    height: 650px;
+  padding-left: 3%;
+  padding-right: 2%;
+  border: 1px solid black;
+  border-color: wheat;
+  box-sizing: border-box;
+  background: wheat;
+
+  
+}
+.text{
+  padding-left: 3%;
+  padding-right: 2%;
+  border: 1px solid black;
+  box-sizing: border-box;
+    background: lightpink;
+    border-color: lightpink;
+}
+

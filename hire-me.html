@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-4.5.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Why Can't You Hire Me</title>
+    <script>
+        function pageRedirect() {
+          window.location.href = "index.html";
+        }      
+    </script>
+</head>
+<body id="hire-me" class="container">
+    <div class="owner"> <h1>Elisephan Ntakirutimana's<span> CV</span> </h1> </div>
+   
+    <div id="navigation">
+       
+        <nav> 
+           <ul>
+             <li><a href="index.html">About |</a></li>
+             <li><a href="education.html"> Education |</a></li>
+             <li><a href="experience.html">Experience |</a></li>
+             <li><a href="trainings.html">Trainings |</a></li>
+             <li><a href="hire-me.html">Why Can't You Hire Me</a></li>
+            
+            
+           </ul>
+        </nav>
+    </div>
+    
+    <!--hire me section-->
+
+    <!--<button type="radio" onclick="pageRedirect()">Finance and Award Director</button>-->
+<!--hire button end-->
+<br>
+<h6> <strong>I CAN BE HIRED FOR:</strong></h6><br>
+
+<form action="/action_page.php">
+  <input type="radio" id="finance-director" name="I can be hired for" value="finance-director">
+  <label for="finance-director">Finance and Award Director</label><br>
+  <input type="radio" id="operation-analyst" name="I can be hired for" value="operation-analyst">
+  <label for="operation-analyst">Strategy and operation Analyst</label><br>
+  <input type="radio" id="chief-finance-officer" name="I can be hired for" value="chief-finance-officer">
+  <label for="chief-finance-officer">Chief finance Officer</label><br>
+  <input type="radio" id="human-resource-director" name="I can be hired for" value="human-resource-director">
+  <label for="human-resource-director">Human resource Director</label><br>
+  <input type="radio" id="grants-and-contracts-manager" name="I can be hired for" value="grants-and-contracts-manager">
+  <label for="grants-and-contracts-manager">Grants and contracts Manager</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
